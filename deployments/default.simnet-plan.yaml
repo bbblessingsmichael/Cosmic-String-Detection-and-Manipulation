@@ -50,6 +50,16 @@ plan:
     - id: 0
       transactions:
         - emulated-contract-publish:
+            contract-name: cosmic-string-nft
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/cosmic-string-nft.clar
+            clarity-version: 2
+        - emulated-contract-publish:
+            contract-name: manipulation-technique-marketplace
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/manipulation-technique-marketplace.clar
+            clarity-version: 2
+        - emulated-contract-publish:
             contract-name: observation-coordination
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             path: contracts/observation-coordination.clar

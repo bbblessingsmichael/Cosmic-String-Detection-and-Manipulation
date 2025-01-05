@@ -58,12 +58,13 @@
     (
       (technique (unwrap! (map-get? techniques technique-id) ERR_INVALID_TECHNIQUE))
       (price (get price technique))
+      (current-ownership (get-technique-ownership technique-id tx-sender))
     )
     (asserts! (is-eq (get status technique) "active") ERR_INVALID_TECHNIQUE)
     (try! (ft-transfer? cosmic-token price tx-sender (get creator technique)))
     (map-set technique-owners
       { technique-id: technique-id, owner: tx-sender }
-      (default-to u0 (+ (get-technique-ownership technique-id tx-sender) u1))
+      (+ current-ownership u1)
     )
     (ok true)
   )

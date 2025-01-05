@@ -11,3 +11,5 @@ O
 tests/cosmic-string-nft.test.ts,0/2/02b4a7c81ccdfdfb1081013d53db1e51c987d190
 a
 1contracts/manipulation-technique-marketplace.clar,1/8/18f13d587b3b0b92b8cbd1304eec25ed740ba818
+`
+0tests/manipulation-technique-marketplace.test.ts,2/a/2a75e9f047aed80dfbf2fdf638a600008db0afce
