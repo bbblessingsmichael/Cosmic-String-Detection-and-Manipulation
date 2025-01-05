@@ -7,3 +7,5 @@ V
 &tests/observation-coordination.test.ts,6/7/67af6b7b8e4601f2f12d1ee21eb3de81f1fcb823
 P
  contracts/cosmic-string-nft.clar,b/6/b6f0443f0da5aeede6c08681b12e703ed43dd366
+O
+tests/cosmic-string-nft.test.ts,0/2/02b4a7c81ccdfdfb1081013d53db1e51c987d190
