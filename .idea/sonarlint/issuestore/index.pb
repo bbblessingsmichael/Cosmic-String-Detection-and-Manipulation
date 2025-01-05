@@ -9,3 +9,5 @@ P
  contracts/cosmic-string-nft.clar,b/6/b6f0443f0da5aeede6c08681b12e703ed43dd366
 O
 tests/cosmic-string-nft.test.ts,0/2/02b4a7c81ccdfdfb1081013d53db1e51c987d190
+a
+1contracts/manipulation-technique-marketplace.clar,1/8/18f13d587b3b0b92b8cbd1304eec25ed740ba818

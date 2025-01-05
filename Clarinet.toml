@@ -10,6 +10,11 @@ path = 'contracts/cosmic-string-nft.clar'
 clarity_version = 2
 epoch = 2.5
 
+[contracts.manipulation-technique-marketplace]
+path = 'contracts/manipulation-technique-marketplace.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.observation-coordination]
 path = 'contracts/observation-coordination.clar'
 clarity_version = 2
